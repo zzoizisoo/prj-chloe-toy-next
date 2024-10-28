@@ -27,4 +27,4 @@ class Singleton {
   }
 }
 
-export const getMongoClient = Singleton.getInstance();
+export const mongoClient = Singleton.getInstance();
